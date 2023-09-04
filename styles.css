@@ -6,3 +6,12 @@ canvas {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
+@media (max-width: 768px) {
+  canvas {
+    /* Ajustar el tamaño del canvas para pantallas móviles */
+    width: 100%; /* Puedes ajustar este valor según tus necesidades */
+    height: 50%; /* Puedes ajustar este valor según tus necesidades */
+    top: 50%; /* Centrar verticalmente el canvas en la pantalla */
+    transform: translateY(-50%); /* Centrar verticalmente el canvas en la pantalla */
+  }
+}
